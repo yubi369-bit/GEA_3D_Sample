@@ -1199,7 +1199,8 @@ MonoBehaviour:
   firstCount: 3
   addPerWave: 2
   spawnGap: 0.5
-  waveText: {fileID: 0}
+  waveText: {fileID: 364805470}
+  lastWave: 0
 --- !u!4 &65085733
 Transform:
   m_ObjectHideFlags: 0
@@ -23232,6 +23233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   gameOverPanel: {fileID: 355916173}
   titleSceneName: Title
+  claerPanel: {fileID: 0}
 --- !u!4 &1659522473
 Transform:
   m_ObjectHideFlags: 0
