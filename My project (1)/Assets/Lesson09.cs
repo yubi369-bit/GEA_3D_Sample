@@ -131,7 +131,7 @@ public class Lesson09 : MonoBehaviour
     void Remainder()
     {
         int shotCount = 6;
-        int totalSeconds = 135;
+        //int totalSeconds = 135;
 
         bool isEven = shotCount % 2== 0;
         bool strongShot = shotCount %3 == 0;
