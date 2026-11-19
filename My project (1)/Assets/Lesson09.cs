@@ -127,19 +127,6 @@ public class Lesson09 : MonoBehaviour
         Debug.Log(hp % 2);
     }
 
-    [ContextMenu("나머지")]
-    void Remainder()
-    {
-        int shotCount = 6;
-        //int totalSeconds = 135;
-
-        bool isEven = shotCount % 2== 0;
-        bool strongShot = shotCount %3 == 0;
-        int min = totalSeconds / 60;
-        int sec = totalSeconds % 60;
-        Debug.Log(min + "." + sec);
-    }
-
     [ContextMenu("예측 3")]
     void Predict3()
     {
